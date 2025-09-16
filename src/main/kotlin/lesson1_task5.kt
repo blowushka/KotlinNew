@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     val seconds = 6480
 
     val hours = seconds / 3600
