@@ -1,11 +1,11 @@
-fun main(){
-    val ordersCount:Int = 75
-    val gratitudeMessage:String = "Thank you for your purchase!"
+fun main() {
+    val ordersCount: Int = 75
+    val gratitudeMessage: String = "Thank you for your purchase!"
 
     println(ordersCount)
     println(gratitudeMessage)
 
-    var employeesCount:Int = 2000
+    var employeesCount: Int = 2000
 
     //println(employeesCount)
 
