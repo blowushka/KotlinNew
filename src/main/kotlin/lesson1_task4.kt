@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     val length: Long = 40_868_600_00
     val age: Byte = 27
     val partOfDay: Float = 0.075f
