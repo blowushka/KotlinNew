@@ -1,15 +1,15 @@
 package org.example.lesson_1
 
-const val flightSeconds = 6480
-const val minutesInHour = 60
-const val secondsInHour = 3600
+const val MINUTES_IN_HOUR = 60
+const val SECONDS_IN_HOURS = 3600
 
 fun main() {
 
-    val flightHours = flightSeconds / secondsInHour
-    val remainingAfterHours = flightSeconds % secondsInHour
-    val flightMinutes = remainingAfterHours / minutesInHour
-    val secondsLeft = remainingAfterHours % minutesInHour
+    val flightSeconds = 6480
+    val flightHours = flightSeconds / SECONDS_IN_HOURS
+    val remainingAfterHours = flightSeconds % SECONDS_IN_HOURS
+    val flightMinutes = remainingAfterHours / MINUTES_IN_HOUR
+    val secondsLeft = remainingAfterHours % MINUTES_IN_HOUR
 
     println("%02d:%02d:%02d".format(flightHours, flightMinutes, secondsLeft))
 
