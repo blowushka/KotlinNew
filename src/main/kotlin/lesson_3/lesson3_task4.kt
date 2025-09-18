@@ -6,12 +6,12 @@ fun main() {
     var whereTurn = "E4"
     var turnsCount = 1
 
-    println("$fromTurn -> $whereTurn; $turnsCount")
+    println("[$fromTurn-$whereTurn;$turnsCount]")
 
     fromTurn = "D2"
     whereTurn = "D3"
-    turnsCount = 2
+    turnsCount++
 
-    println("$fromTurn -> $whereTurn; $turnsCount")
+    println("[$fromTurn-$whereTurn;$turnsCount]")
 
 }
