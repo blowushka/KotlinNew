@@ -2,7 +2,7 @@ package org.example.lesson_3
 
 fun main() {
 
-    val multiplicationNumber = 4  // change number for your purposes
+    val multiplicationNumber = 4
 
     println(
         """
