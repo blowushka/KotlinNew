@@ -4,13 +4,12 @@ fun main() {
 
     val dayOfTraining = 5
     val isArmsAndAbsDay = dayOfTraining % 2 != 0
-    val isLegsAndBackDay = dayOfTraining % 2 == 0
 
     println(
         """
         Упражнения для рук: $isArmsAndAbsDay
-        Упражнения для ног: $isLegsAndBackDay
-        Упражнения для спины: $isLegsAndBackDay
+        Упражнения для ног: ${!isArmsAndAbsDay}
+        Упражнения для спины: ${!isArmsAndAbsDay}
         Упражнения для пресса: $isArmsAndAbsDay
     """.trimIndent()
     )
