@@ -11,6 +11,8 @@ fun main() {
     print("Enter the second number from 0 to 42: ")
     val secondNumber = readln().toInt()
 
+    println("Lucky numbers was: $firstLuckyNumber, $secondLuckyNumber")
+
     if ((firstNumber == firstLuckyNumber && secondNumber == secondLuckyNumber) || (firstNumber == secondLuckyNumber && secondNumber == firstLuckyNumber)) {
         print("Congratulations! You won grand prize!")
     } else if (firstNumber == firstLuckyNumber || firstNumber == secondLuckyNumber || secondNumber == firstLuckyNumber || secondNumber == secondLuckyNumber) {
