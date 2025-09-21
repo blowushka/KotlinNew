@@ -7,7 +7,7 @@ const val SEASON_OF_YEAR: String = "Зима"
 
 fun main() {
 
-    val favorableConditions = IS_SUN && IS_AWNING_OPEN && AIR_HUMIDITY == 20 && SEASON_OF_YEAR != "Зима"
+    val favorableConditions = IS_SUN == true && IS_AWNING_OPEN == true && AIR_HUMIDITY == 20 && SEASON_OF_YEAR != "Зима"
 
     println("Благоприятные ли условия сейчас для роста бобовых? $favorableConditions")
 
