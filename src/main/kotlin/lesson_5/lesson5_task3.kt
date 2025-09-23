@@ -1,14 +1,17 @@
 package org.example.lesson_5
 
+const val MIN_NUMBER = 0
+const val MAX_NUMBER = 42
+
 fun main() {
 
     val firstLuckyNumber = 5
     val secondLuckyNumber = 10
 
-    print("Enter the first number from 0 to 42: ")
+    print("Enter the first number from $MIN_NUMBER to $MAX_NUMBER: ")
     val firstNumber = readln().toInt()
 
-    print("Enter the second number from 0 to 42: ")
+    print("Enter the second number from $MIN_NUMBER to $MAX_NUMBER: ")
     val secondNumber = readln().toInt()
 
     println("Lucky numbers was: $firstLuckyNumber, $secondLuckyNumber")
